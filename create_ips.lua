@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env lua
 -- Authors: Robert D and Caroline B
 -- 1/28/22
 -- Creates the requested file containing ip addresses
