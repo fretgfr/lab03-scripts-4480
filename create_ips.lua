@@ -7,7 +7,7 @@ local base = "192.168.2."
 local output_file_name = "Ec554_IPs.txt"
 
 local output_file = io.open(output_file_name, "w")
-for i = 0, 254, 1 do
+for i = 0, 254, 1 do -- 0-254 inclusive
     output_file:write(base .. i .. "\n")
 end
 
